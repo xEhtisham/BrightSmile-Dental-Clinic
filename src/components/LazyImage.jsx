@@ -11,8 +11,13 @@ const LazyImage = ({ src, alt, className = '', width, height }) => {
     const placeholder =
         'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AApIB9ZB6JYcAAAAASUVORK5CYII='; // 1×1 transparent pixel
 
+    // Build a style object only when width/height are provided
+    const containerStyle = {};
+    if (width) containerStyle.width = width;
+    if (height) containerStyle.height = height;
+
     return (
-        <div className={`relative ${className}`} style={{ width, height }}>
+        <div className={`relative ${className}`} style={containerStyle}>
             {/* Placeholder – blurred background */}
             <img
                 src={placeholder}

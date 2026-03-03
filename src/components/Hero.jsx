@@ -51,7 +51,7 @@ const Hero = () => {
                     {/* Image */}
                     <div className="md:w-1/2 w-full">
                         <div className="aspect-[4/3] rounded-2xl bg-gray-100 overflow-hidden shadow-lg relative">
-                            <LazyImage src="/placeholder-hero.png" alt="Modern dental clinic interior" className="w-full h-full object-cover" width="100%" height="auto" />
+                            <img src="/placeholder-hero.png" alt="Modern dental clinic interior" className="w-full h-full object-cover" loading="lazy" />
                         </div>
                     </div>
                 </div>
