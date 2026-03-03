@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4FC3F7"/>
+      <stop offset="100%" stop-color="#1E88E5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="240" fill="url(#blueGradient)" />
+
+  <!-- Tooth Shape -->
+  <path d="M256 140
+           C210 110, 150 150, 170 240
+           C185 305, 210 360, 240 360
+           C255 360, 255 320, 256 320
+           C257 320, 257 360, 272 360
+           C302 360, 327 305, 342 240
+           C362 150, 302 110, 256 140 Z"
+        fill="white"/>
+
+  <!-- Sparkle -->
+  <polygon points="360,150 370,175 395,185 370,195 360,220 350,195 325,185 350,175"
+           fill="white" opacity="0.9"/>
+</svg>
