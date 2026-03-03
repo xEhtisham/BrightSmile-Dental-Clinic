@@ -4,6 +4,7 @@ A modern, conversion-focused dental clinic website built with React and Tailwind
 
 This project demonstrates clean healthcare UI design, responsive layout structure, and user-focused appointment flow.
 
+
 🛠 Tech Stack
 
 React (Vite)
@@ -15,6 +16,7 @@ Component-Based Architecture
 Responsive Design
 
 Google Maps Integration
+
 
 ✨ Features
 
@@ -30,13 +32,7 @@ Google Maps embedded contact section
 
 Conversion-focused CTA placement
 
-📂 Project Structure
-src/
- ├── components/
- ├── hooks/
- ├── assets/
- ├── App.jsx
- ├── main.jsx
+
 📌 Purpose
 
 This project was built as a frontend showcase for a local healthcare business website, focusing on:
@@ -48,6 +44,7 @@ Clear call-to-action hierarchy
 Clean typography system
 
 Structured section layout
+
 
 🧠 Future Improvements
 
